@@ -18,7 +18,7 @@ print('Installing tesseract on machine')
 
 os.system('apt install tesseract-ocr')
 
-print('tesseract should be installed)
+print('tesseract should be installed')
 
 os.system('pip install gradio --upgrade')
 os.system('pip install git+https://github.com/huggingface/transformers.git --upgrade')
