@@ -197,6 +197,6 @@ iface = gr.Interface(fn=run,
                      title=title,
                      description=description,
                      article=article,
-                     css=css,share=True)
-iface.launch(debug=True)
+                     css=css)
+iface.launch(debug=True,,share=True)
 
