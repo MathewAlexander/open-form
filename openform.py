@@ -14,6 +14,12 @@ Gradio is very easy to set up, as can be seen below.
 """
 
 import os
+print('Installing tesseract on machine')
+
+os.system('apt install tesseract-ocr')
+
+print('tesseract should be installed)
+
 os.system('pip install gradio --upgrade')
 os.system('pip install git+https://github.com/huggingface/transformers.git --upgrade')
 os.system('pip install pyyaml==5.1')
@@ -25,7 +31,6 @@ os.system('pip install -q detectron2 -f https://dl.fbaipublicfiles.com/detectron
 ## install PyTesseract
 os.system('pip install -q pytesseract')
 
-os.system('apt install tesseract-ocr')
 
 import time
 import numpy as np
