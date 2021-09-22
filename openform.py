@@ -16,7 +16,7 @@ Gradio is very easy to set up, as can be seen below.
 import os
 print("Installing tesseract on machine")
 
-os.system('apt install tesseract-ocr')
+os.system('apt-get install tesseract-ocr -y')
 
 print("tesseract should be installed")
 
