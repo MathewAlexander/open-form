@@ -25,7 +25,7 @@ os.system('pip install -q detectron2 -f https://dl.fbaipublicfiles.com/detectron
 ## install PyTesseract
 os.system('pip install -q pytesseract')
 
-os.system('sudo apt install tesseract-ocr')
+os.system('apt install tesseract-ocr')
 
 import time
 import numpy as np
