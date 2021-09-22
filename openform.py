@@ -14,11 +14,11 @@ Gradio is very easy to set up, as can be seen below.
 """
 
 import os
-print('Installing tesseract on machine')
+print("Installing tesseract on machine")
 
 os.system('apt install tesseract-ocr')
 
-print('tesseract should be installed')
+print("tesseract should be installed")
 
 os.system('pip install gradio --upgrade')
 os.system('pip install git+https://github.com/huggingface/transformers.git --upgrade')
@@ -197,6 +197,6 @@ iface = gr.Interface(fn=run,
                      title=title,
                      description=description,
                      article=article,
-                     css=css)
+                     css=css,share)
 iface.launch(debug=True)
 
